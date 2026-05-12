@@ -1,8 +1,12 @@
 import { Icon } from "@iconify/react";
 import { Button, Divider, Flex, Layout, Menu } from "antd";
 import pallete from "../../utils/pallete";
+import { useNavigate } from "react-router";
 
 export default function Sidebar() {
+
+  const navigate = useNavigate()
+
   return (
     <Layout.Sider
       style={{
@@ -113,7 +117,7 @@ export default function Sidebar() {
             variant="filled"
             onClick={() => {
               localStorage.removeItem('isLogin')
-              window.location.href = '/login'
+              return navigate('/login')
             }}
             // size="middle"
             icon={
