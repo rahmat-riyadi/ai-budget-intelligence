@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+textarea.ant-input.ant-input-outlined {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.ant-menu-item.ant-menu-item-selected {
+  background-color: #1475c517;
+}
+
+.ant-menu-item {
+  font-weight: 300;
+}
+
+.ant-menu-submenu.ant-menu-submenu-selected,
+.ant-menu-item.ant-menu-item-selected {
+  font-weight: 500;
+  /* color: #fff; */
+}
