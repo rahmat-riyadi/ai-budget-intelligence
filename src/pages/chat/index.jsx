@@ -129,7 +129,18 @@ export default function ChatPage() {
 
         {/* Input Box */}
         <div style={{ position: 'absolute', bottom: '32px', left: '50%', transform: 'translateX(-50%)', width: 'calc(100% - 120px)', maxWidth: '850px', zIndex: 20 }}>
-          <Card size='small' style={{ borderRadius: 21 }} >
+          <Card
+            size='small'
+            styles={{
+              body: {
+                padding: '4px 8px'
+              },
+            }}
+            style={{
+              borderRadius: 21,
+              boxShadow: 'rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px'
+            }}
+          >
             <Flex align='center' gap={10} >
               <Input.TextArea
                 rows={1}
