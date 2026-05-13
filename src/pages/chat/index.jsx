@@ -6,7 +6,6 @@ import { ResponsiveBar } from '@nivo/bar';
 import { useMutation } from '@tanstack/react-query';
 import { chatService } from '../../services/chat.service';
 import Markdown from 'react-markdown'
-import Plot from 'react-plotly.js';
 import PlotlyChart from '../../components/common/PlotlyChart';
 import DataFrameBlock from '../../components/common/DataFrameBlock';
 
