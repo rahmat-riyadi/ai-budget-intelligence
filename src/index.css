@@ -26,3 +26,65 @@ textarea.ant-input.ant-input-outlined {
   font-weight: 500;
   /* color: #fff; */
 }
+
+/* markdown.css */
+.markdown-content {
+  font-family: inherit;
+  line-height: 1.6;
+  color: inherit;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.markdown-content p {
+  margin: 1em 0;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  padding-left: 2em;
+  margin: 1em 0;
+}
+
+.markdown-content li {
+  margin: 0.25em 0;
+}
+
+.markdown-content strong {
+  font-weight: bold;
+}
+
+.markdown-content em {
+  font-style: italic;
+}
+
+.markdown-content code {
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+.markdown-content pre {
+  background-color: #f4f4f4;
+  padding: 12px;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+.markdown-content blockquote {
+  border-left: 4px solid #d1d5db;
+  padding-left: 1em;
+  margin: 1em 0;
+  color: #6b7280;
+}
